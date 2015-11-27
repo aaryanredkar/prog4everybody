@@ -1,10 +1,10 @@
-print=("US Dollar = US, Euro = EU, British Pound sterling = BP, Australian Dollar,Cinese Yaun = CY, Japenese Yen = JY, Canadian Dollar = CD")
+print("US Dollar = US, Euro = EU, British Pound sterling = BP, Australian Dollar,Cinese Yaun = CY, Japanese Yen = JY, Canadian Dollar = CD")
 
 cur_from = input("Enter 1st currency:")
 cur_from = cur_from.upper()
 cur_to = input("Enter 2nd currency:")
 cur_to =cur_to.upper()
-amount = int(input("Enter amount to amount"))
+amount = int(input("Enter amount to amount:"))
 
 if cur_from =="US":
       dollarValue = amount/1
@@ -42,8 +42,9 @@ else:
       conVal==dollarValue*0
 
 if conVal !=0:
-      print ("Converted value of",amount,cur_from,"to",
-            cur_to,"is","{:10.2f}".format(conVal))
+     print ("Converted value of " + str(amount) + " " + str(cur_from) + " to " + str(cur_to) + " is "+ "{:10.2f}".format(conVal))
+
+     
 
 
       
