@@ -1,5 +1,6 @@
 import turtle 
-length = int(input("How long should the spiral be:"))
+length = int(input("How long should the spira
+                   l be:"))
 ninja = turtle.Turtle()
 
 ninja.speed(10)
