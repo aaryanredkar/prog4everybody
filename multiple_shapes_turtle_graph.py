@@ -1,4 +1,4 @@
-mport turtle 
+import turtle 
 
 painter = turtle.Turtle()
 
