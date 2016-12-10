@@ -10,7 +10,7 @@ temp = 0
 print("0 ")
 while (b<= Value):
     shape.circle(b)
-    temp a+b
+    temp = a +b
     a = b
     b = temp
 
